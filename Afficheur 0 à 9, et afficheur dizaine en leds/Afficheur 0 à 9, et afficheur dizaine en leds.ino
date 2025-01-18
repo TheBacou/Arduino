@@ -18,7 +18,7 @@ PinLeds list[] = {
 const int port_dizaine[] = {52, 50, 48, 46, 30, 28, 26, 24, 22};
 int dizaine = 0;
 
-int time_delay = 150;
+int time_delay = 250;
 
 void loadPin() {
   for (int port = 22; port <= 53; port++) {
